@@ -1,0 +1,82 @@
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #667eea, #764ba2);
+margin: 0;
+padding: 30px;
+}
+
+.container {
+max-width: 800px;
+margin: auto;
+background: white;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+text-align: center;
+color: #4b3f72;
+}
+
+p {
+text-align: center;
+}
+
+.form {
+display: grid;
+gap: 10px;
+margin: 20px 0;
+}
+
+input, select, button {
+padding: 12px;
+font-size: 16px;
+border-radius: 6px;
+border: 1px solid #ccc;
+}
+
+button {
+background: #667eea;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+button:hover {
+background: #4c5fd5;
+}
+
+.task {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #f3f4ff;
+margin: 10px 0;
+padding: 15px;
+border-radius: 8px;
+}
+
+.completed {
+text-decoration: line-through;
+opacity: 0.6;
+}
+
+.delete {
+background: #e74c3c;
+padding: 8px 12px;
+}
+
+.progress-bar {
+height: 25px;
+background: #ddd;
+border-radius: 15px;
+overflow: hidden;
+}
+
+#progressBar {
+height: 100%;
+width: 0%;
+background: #2ecc71;
+transition: width 0.3s;
+}
